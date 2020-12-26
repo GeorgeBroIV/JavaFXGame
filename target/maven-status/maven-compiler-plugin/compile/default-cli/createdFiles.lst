@@ -1,0 +1,4 @@
+org/openjfx/App.class
+module-info.class
+org/openjfx/PrimaryController.class
+org/openjfx/SecondaryController.class
