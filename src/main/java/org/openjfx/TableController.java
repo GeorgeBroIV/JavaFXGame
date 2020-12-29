@@ -1,15 +1,15 @@
 package org.openjfx;
 
-import java.io.IOException;
-
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
-public class SecondaryController {
+import java.io.IOException;
 
-    public Button tableButton;
+public class TableController {
+
+
     public Button primaryButton;
+    public Button secondaryButton;
 
     @FXML
     private void switchToPrimary() throws IOException {
@@ -17,7 +17,7 @@ public class SecondaryController {
     }
 
     @FXML
-    private void switchToTable() throws IOException {
-        App.setRoot("table");
+    private void switchToSecondary() throws IOException {
+        App.setRoot("secondary");
     }
 }

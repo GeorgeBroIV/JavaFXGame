@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 /**
@@ -19,7 +18,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 480);
         stage.setScene(scene);
-        stage.setTitle("Stage Title");
+        stage.setTitle("Stone Playground Canasta");
         stage.show();
     }
 
